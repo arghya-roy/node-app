@@ -6,5 +6,6 @@ FROM node:10-alpine
 #RUN npm install
 
 ADD . .
+ADD node_modules .
 
 CMD [ "node", "index.js" ]
