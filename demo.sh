@@ -1,5 +1,9 @@
 #!/bin/bash
-echo "helo"
-echo "hl2elo"
-echo "hl2elo22222"
+ech "helo"
+if ($? == 0)
+then 
+   echo "success"
+else
+   echo "fail"
+fi
 
