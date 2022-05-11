@@ -19,11 +19,11 @@ steps:
 - script: |
     npm install
     npm run build
-  displayName: 'npm install and build'
-- task: Docker@2
-  inputs:
-    command: 'login'
-- task: Docker@2
-  inputs:
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+   displayName: 'npm install and build'
+# - task: Docker@2
+#   inputs:
+#     command: 'login'
+# - task: Docker@2
+#   inputs:
+#     command: 'buildAndPush'
+#     Dockerfile: '**/Dockerfile'
